@@ -12,6 +12,22 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  padding: 8px;
+  gap: 16px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.cta-container {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 auto;
 }
 
 .profile-image {
@@ -45,4 +61,6 @@ a {
 
 ul {
   list-style-type: none;
+  padding: 0;
+
 }
